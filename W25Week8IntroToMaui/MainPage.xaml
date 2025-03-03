@@ -18,7 +18,10 @@
                     <DataTemplate>
                         <ViewCell>
                             <VerticalStackLayout Spacing="10">
-                                <Label Text="{Binding}" Margin="10,0" FontSize="20"/>
+                                <HorizontalStackLayout>
+                                    <CheckBox Margin="10"/>
+                                    <Label Text="{Binding}" Margin="10" FontSize="20"/>
+                                </HorizontalStackLayout>
                             </VerticalStackLayout>
                         </ViewCell>
                     </DataTemplate>
